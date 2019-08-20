@@ -34,7 +34,7 @@ public class Manager implements I_Manager {
    @Override
    public void endShift() {
       System.out.printf("\n\t%s %s says: Alright people, we've earned a heap of money today. You can collect the garbage, clean the stack of pizza plates and we are closing it up!\n", title, name);
-      System.out.printf("\tThe staff says: Well, if we have to... Maybe we will just finish our current tasks, %s %s?\n", title, name);
+      System.out.printf("\tThe staff says: Oh no, but if we have to... Maybe we will just finish our current tasks, %s %s?\n", title, name);
       System.out.printf("\t%s %s says: Good idea! Lock the office, when you're done.\n\n", title, name);
       staff.shutdown();
    }

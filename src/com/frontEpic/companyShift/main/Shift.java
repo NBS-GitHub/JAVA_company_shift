@@ -36,7 +36,6 @@ public class Shift implements I_Shift {
                break;
             } else {
                boss.giveOrder(this);
-//               realProfit += 40;
                Thread.sleep(random.nextInt(1000));
             }
          } catch (InterruptedException e) {
